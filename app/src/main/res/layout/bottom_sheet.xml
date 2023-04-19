@@ -6,9 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
+    app:behavior_hideable="false"
     app:behavior_peekHeight="@dimen/dimen_32"
-    app:hideable="false"
-    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehaviour">
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
 
     <EditText
         android:id="@+id/enter_todo_et"
