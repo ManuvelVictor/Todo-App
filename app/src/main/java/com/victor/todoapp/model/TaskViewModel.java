@@ -32,11 +32,11 @@ public class TaskViewModel extends AndroidViewModel {
         return repository.get(id);
     }
 
-    public void update(Task task) {
+    public static void update(Task task) {
         repository.update(task);
     }
 
-    public void delete(Task task) {
+    public static void delete(Task task) {
         repository.delete(task);
     }
 }
